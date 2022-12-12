@@ -13,20 +13,131 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
 }
+
+
+/* /// FONT //// */
+
+@font-face {
+  font-family: beesFont;
+  src: url("../src/assets/fonts/Bees\ Burts.ttf")
+}
+
+
+
+
+
+/* --------------- HERO START -------------------- */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: rgb(130, 129, 129);
+  /* background-image:  url("../src/assets/images/Colors.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Hero {
+  font-size: 6.25rem;
+  font-weight: 100;
+  line-height: 17.5rem;
+  position: absolute;
+  font-family: gellatio, sans-serif;
+  text-align: center;
+}
+
+.heroText {
+ font-family: beesFont;
+ color: black;
+ font-size: 200px;
+ height: 900px;
+}
+
+/* ------------------ HERO END ------------------------ */
+
+
+
+
+
+
+
+
+
+/* ---------------------  WELCOME START ----------------------------- */
+.welcomeSection {
+  background-color: black;
+  min-height: 100vh;
+}
+/* ----------------------  WELCOME END -------------------------------- */
+
+
+
+
+
+
+/* ---------------------  BEES  START ----------------------------- */
+.beesSection {
+  background-color: rgb(251 195 39);
+  min-height: 100vh;
+}
+/* ----------------------  BEES END -------------------------------- */
+
+
+
+
+
+/* ---------------------   HONEY START ----------------------------- */
+
+.honeySection {
+  background-color: black;
+  min-height: 100vh;
+}
+/* ----------------------  HONEY END -------------------------------- */
+
+
+
+
+
+/* ---------------------    START ----------------------------- */
+/* ----------------------   END -------------------------------- */
+
+
+
+
+/* ---------------------    START ----------------------------- */
+/* ----------------------   END -------------------------------- */
+
+
+
+
+/* ---------------------    START ----------------------------- */
+/* ----------------------   END -------------------------------- */
+
+
+
+
+
+/* ---------------------    START ----------------------------- */
+/* ----------------------   END -------------------------------- */
+
+
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
