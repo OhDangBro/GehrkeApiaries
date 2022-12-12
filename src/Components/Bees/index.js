@@ -10,6 +10,20 @@ import beeImage6 from '../../assets/images/BeeImages/BeeImage6.jpg'
 import beeImage7 from '../../assets/images/BeeImages/BeeImage7.jpg'
 import beeImage8 from '../../assets/images/BeeImages/BeeImage8.jpg'
 import beeImage9 from '../../assets/images/BeeImages/BeeImage9.jpg'
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import FlowerLeft from '../../assets/images/FlowerLeft.svg'
+import FlowerRight from '../../assets/images/FlowerRight.svg'
+
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+}));
 
 
 const beePhotos = [
@@ -64,9 +78,29 @@ function Bees() {
     return (
       <div className="beesSection">
           <h2 align="center">Bees</h2>
-        <Container>
-        <PhotoAlbum layout="rows" photos={beePhotos} />
+
+          <Box sx={{ flexGrow: 1 }}>
+      <Grid className="beeGrid" container spacing={2}>
+        <Grid item xs={2}>
+          <Item >
+            <img  src={FlowerLeft}></img>
+            </Item>
+        </Grid>
+        <Grid item xs={8}>
+          <Item>
+          <Container>
+        <PhotoAlbum className="beePhotoGallery" layout="rows" photos={beePhotos} />
         </Container>
+          </Item>
+        </Grid>
+        <Grid item xs={2}>
+          <Item>
+          <img className="rotateimg180"  src={FlowerRight}></img>
+          </Item>
+        </Grid>
+      </Grid>
+    </Box>
+        
   </div>
       
     );

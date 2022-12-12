@@ -13,11 +13,20 @@
   }
 }
 
+.hexagon{
+  width: 500px;
+  -webkit-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+  clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+  background-image: cover;
+}
 
 
 .App-link {
   color: #61dafb;
 }
+
+
+
 
 
 /* /// FONT //// */
@@ -27,13 +36,16 @@
   src: url("../src/assets/fonts/Bees\ Burts.ttf")
 }
 
-
+h2 {
+  font-family: beesFont;
+  color: rgb(226 173 34);
+}
 
 
 
 /* --------------- HERO START -------------------- */
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -41,10 +53,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
   background: rgb(130, 129, 129);
-  /* background-image:  url("../src/assets/images/Colors.png"); */
+  background-image:  url("../src/assets/images/HeroImage.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vh;
 }
 
 .Hero {
@@ -58,9 +70,9 @@
 
 .heroText {
  font-family: beesFont;
- color: black;
- font-size: 200px;
- height: 900px;
+ color: rgb(226 173 34);
+ font-size: 80px;
+ height: 2px;
 }
 
 /* ------------------ HERO END ------------------------ */
@@ -75,7 +87,7 @@
 
 /* ---------------------  WELCOME START ----------------------------- */
 .welcomeSection {
-  background-color: black;
+  background: rgb(130, 129, 129);
   min-height: 100vh;
 }
 /* ----------------------  WELCOME END -------------------------------- */
@@ -87,8 +99,24 @@
 
 /* ---------------------  BEES  START ----------------------------- */
 .beesSection {
-  background-color: rgb(251 195 39);
+  background-color: rgb(130, 129, 129);
   min-height: 100vh;
+}
+
+.beeFlowerLeft {
+  background-color: rgb(130, 129, 129) !important;
+  width: 20%;
+  height: 100px;
+  border-style: none !important;
+}
+
+.beeGrid {
+  background-color: rgb(130, 129, 129);
+}
+
+.rotateimg180 {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 /* ----------------------  BEES END -------------------------------- */
 
@@ -99,9 +127,67 @@
 /* ---------------------   HONEY START ----------------------------- */
 
 .honeySection {
-  background-color: black;
-  min-height: 100vh;
+  background: rgb(130, 129, 129);
+  min-height: 80vh;
 }
+
+.fourOzHoneyImage {
+  height: 600px;
+  width: 500px;
+}
+
+
+.smallFlowerLeft {
+  height: 40px;
+}
+
+.smallFlowerRight {
+  height: 70px;
+}
+
+
+
+
+
+
+.yellowCombOne {
+  position: relative;
+    left: 203px;
+    top: -300px;
+}
+
+  .fourOzHoneyImage {
+    position: relative;
+    left: 728px;
+    top: 300px;
+}
+
+.yellowCombTwo {
+  position: relative;
+  left: 472px;
+  top: -1046px;
+}
+
+  .honeyFilterDiv {
+    position: relative;
+    left: -50px;
+    top: -436px;
+}
+
+
+.hexagonOneOzHoney{
+  position: relative;
+    left: 725px;
+    top: -1783px
+}
+
+.yellowCombThree {
+  position: relative;
+  left: 209px;
+  top: -1176px;
+}
+
+
 /* ----------------------  HONEY END -------------------------------- */
 
 
