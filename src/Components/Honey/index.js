@@ -5,7 +5,7 @@ import Container from '@mui/material/Container';
 import HoneyFiltering from '../../assets/images/HoneyImages/HoneyFiltering.jpg'
 import oneOzHoney from '../../assets/images/HoneyImages/oneOzHoney.jpg'
 import YellowComb from "../../assets/images/HoneyImages/YellowComb.png"
-import beeHead from "../../assets/images/BeeHead.svg"
+
 
 
 
@@ -25,6 +25,7 @@ function Honey() {
       <div class="hexagon yellowCombTwo"><img src={YellowComb}  alt="yellow comb 2" /></div>
       <div class="hexagon yellowCombThree"><img src={YellowComb}  alt="yellow comb 3" /></div>
       <div class="hexagon hexagonOneOzHoney "><img src={oneOzHoney}  alt="little honey bottle" /></div>
+    
       </Container>
     </React.Fragment>
   </div>

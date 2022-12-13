@@ -1,3 +1,13 @@
+* {
+ 
+  margin: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
+}
+
 .App {
   text-align: center;
 }
@@ -45,6 +55,8 @@ h2 {
   margin-right: auto;
   width: 50%;
   font-size: 40px;
+  padding-bottom: 30px;
+
 }
 
 .beeHead {
@@ -142,9 +154,7 @@ h2 {
 
 /* ---------------------   HONEY START ----------------------------- */
 
-.honeySection {
-  background: rgb(130, 129, 129);
-}
+
 
 
 
@@ -266,7 +276,11 @@ img {
 /* -------- Honey Section Start ---------- */
 
   .honeySection{
-    background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/Flower.svg")
+    background-size: 100%;
+    background-position: 20%;
+    height: 370px;
+   
+    
     
     
   }
@@ -292,7 +306,7 @@ img {
 
 h2 {
   font-family: beesFont;
-  color: rgb(226 173 34);
+  color: black;
   /* display: block; */
   margin-left: auto;
   margin-right: auto;
@@ -310,39 +324,94 @@ h2 {
 
   .fourOzHoneyImage {
     position: relative;
-    left: 205px;
-    top: 16px;
+    left: 189px;
+    top: -32px;
 }
 
 .yellowCombOne {
   position: relative;
-  left: 77px;
-  top: -103px;
+  left: 56px;
+  top: -151px;
 }
 
 .yellowCombTwo {
   position: relative;
-  left: 142px;
-  top: -245px;
+  left: 123px;
+  top: -292px;
 }
 
 .honeyFilterDiv {
   position: relative;
-  left: 15px;
-  top: -122px;
+  left: -10px;
+  top: -171px;
 }
 
 .hexagonOneOzHoney {
   position: relative;
-  left: 204px;
-  top: -387px;
+  left: 189px;
+  top: -430px;
 }
 
 .yellowCombThree {
   position: relative;
-  left: 79px;
-  top: -266px;
+  left: 56px;
+  top: -312px;
+}
+
 }
 /* -------- Honey Section End ---------- */
 
+
+
+
+
+
+/* -------- Chapstick Section Start ---------- */
+.chapstickH2{
+  font-family: beesFont;
+  color: black;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;
+  font-size: 26px;
+  top: 20px !important;
 }
+.chapstickCombOne {
+  position: relative;
+  left: 163px;
+  top: -32px
+}
+
+.chapstickImageOne {
+  position: relative;
+  left: 34px;
+  top: -151px;
+}
+
+.chapstickCombTwo {
+  position: relative;
+  left: 101px;
+  top: -292px;
+}
+
+.chapstickImageTwo {
+  position: relative;
+  left: 230px;
+  top: -172px;
+}
+
+
+.chapstickImageThree {
+  position: relative;
+  left: 35px;
+  top: -315px;
+}
+
+.chapstickCombThree {
+  position: relative;
+  left: 166px;
+  top: -432px;
+}
+
+/* -------- Chapstick Section Start ---------- */
