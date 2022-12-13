@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GehrkeApiaries/static/css/main.82ddde46.css",
-    "main.js": "/GehrkeApiaries/static/js/main.48816bad.js",
+    "main.css": "/GehrkeApiaries/static/css/main.1c89db23.css",
+    "main.js": "/GehrkeApiaries/static/js/main.9ecbc43c.js",
     "static/js/787.63889f70.chunk.js": "/GehrkeApiaries/static/js/787.63889f70.chunk.js",
     "static/media/Chapstick3.jpg": "/GehrkeApiaries/static/media/Chapstick3.3a9d8b8bfc239dcbb5f7.jpg",
     "static/media/HoneyFiltering.jpg": "/GehrkeApiaries/static/media/HoneyFiltering.e1cefae2956367924a80.jpg",
@@ -13,12 +13,12 @@
     "static/media/Chapstick2.jpg": "/GehrkeApiaries/static/media/Chapstick2.6f504dede6d74826e6eb.jpg",
     "static/media/Bees Burts.ttf": "/GehrkeApiaries/static/media/Bees Burts.badb784bc0b088d8103b.ttf",
     "index.html": "/GehrkeApiaries/index.html",
-    "main.82ddde46.css.map": "/GehrkeApiaries/static/css/main.82ddde46.css.map",
-    "main.48816bad.js.map": "/GehrkeApiaries/static/js/main.48816bad.js.map",
+    "main.1c89db23.css.map": "/GehrkeApiaries/static/css/main.1c89db23.css.map",
+    "main.9ecbc43c.js.map": "/GehrkeApiaries/static/js/main.9ecbc43c.js.map",
     "787.63889f70.chunk.js.map": "/GehrkeApiaries/static/js/787.63889f70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ddde46.css",
-    "static/js/main.48816bad.js"
+    "static/css/main.1c89db23.css",
+    "static/js/main.9ecbc43c.js"
   ]
 }
