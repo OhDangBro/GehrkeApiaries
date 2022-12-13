@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a861e674.css",
-    "main.js": "/static/js/main.8b5a1799.js",
+    "main.css": "/static/css/main.d6a14f0d.css",
+    "main.js": "/static/js/main.ddb05087.js",
     "static/js/787.63889f70.chunk.js": "/static/js/787.63889f70.chunk.js",
     "static/media/Chapstick3.jpg": "/static/media/Chapstick3.3a9d8b8bfc239dcbb5f7.jpg",
     "static/media/HoneyFiltering.jpg": "/static/media/HoneyFiltering.e1cefae2956367924a80.jpg",
@@ -13,12 +13,12 @@
     "static/media/Chapstick2.jpg": "/static/media/Chapstick2.6f504dede6d74826e6eb.jpg",
     "static/media/Bees Burts.ttf": "/static/media/Bees Burts.badb784bc0b088d8103b.ttf",
     "index.html": "/index.html",
-    "main.a861e674.css.map": "/static/css/main.a861e674.css.map",
-    "main.8b5a1799.js.map": "/static/js/main.8b5a1799.js.map",
+    "main.d6a14f0d.css.map": "/static/css/main.d6a14f0d.css.map",
+    "main.ddb05087.js.map": "/static/js/main.ddb05087.js.map",
     "787.63889f70.chunk.js.map": "/static/js/787.63889f70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a861e674.css",
-    "static/js/main.8b5a1799.js"
+    "static/css/main.d6a14f0d.css",
+    "static/js/main.ddb05087.js"
   ]
 }
