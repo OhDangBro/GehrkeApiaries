@@ -1,6 +1,5 @@
 import React from "react";
 import fourOzHoney from "../../assets/images/HoneyImages/4ozHoney.jpeg"
-import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import HoneyFiltering from '../../assets/images/HoneyImages/HoneyFiltering.jpg'
 import oneOzHoney from '../../assets/images/HoneyImages/oneOzHoney.jpg'
@@ -27,7 +26,7 @@ function Honey() {
       </div>
       </Container>
       <Card className="honeyTextCard" sx={{ maxWidth: 700 }}>
-        <CardContent>
+        <CardContent className="honeyCardLocation">
           <Typography  gutterBottom  component="div" color="#e2ad22">
           <h2>Honey</h2>
           </Typography>

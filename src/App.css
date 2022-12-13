@@ -31,6 +31,12 @@ margin: 0%
   color: #61dafb;
 }
 
+.bodyDesktop {
+  
+  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
+  
+}
+
 
 
 
@@ -105,6 +111,17 @@ h2 {
 
 
 
+
+
+/* ------------------ NAV START ------------------------ */
+
+
+
+/* ------------------ NAV END ------------------------ */
+
+
+
+
 /* ---------------------  WELCOME START ----------------------------- */
 .welcomeSection {
   background: rgb(130, 129, 129);
@@ -121,7 +138,7 @@ h2 {
 
 
 .honeySection {
-  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
+  background-image: none;
  
   
 }
@@ -129,6 +146,15 @@ h2 {
 .hexagonHoneyContainer {
   height: 1900px;
 }
+
+.honeyTextCard {
+  background-color: transparent !important;
+  top: -1880px;
+  left: 750px;
+  position: relative;
+}
+
+
 
 
 img {
@@ -191,12 +217,21 @@ img {
 /* ---------------------   CHAPSTICK SECTION START ----------------------------- */
 
 .chapstickSection{
-  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
+  background-image: none;
 }
+
+.chapstickTextCard {
+  background-color: transparent !important;
+  top: -56px;
+  left: 569px;
+  position: relative;
+}
+
+
 .chapstickImageOne {
-    position: relative;
-    left: -31px;
-    top: -637px;
+  position: relative;
+  left: 0px;
+  top: -599px;
 }
 
 .chapstickCombOne {
@@ -293,7 +328,7 @@ img {
     background-position: 20%;
     height: 100vh;
     
-  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
+ 
   }
 
   .hexagonHoneyContainer {
@@ -302,7 +337,10 @@ img {
   }
 
   .honeyTextCard {
-height: 150px
+height: 150px;
+top: 0px;
+left: 0px;
+
   }
 
   /* // honey text // */
@@ -449,6 +487,13 @@ h2 {
   width: 43%;
   font-size: 26px;
   top: 20px !important;
+}
+
+.chapstickTextCard {
+  background-color: transparent !important;
+  top: 0px;
+  left: 0px;
+  position: relative;
 }
 
 /* //chapstick text// */

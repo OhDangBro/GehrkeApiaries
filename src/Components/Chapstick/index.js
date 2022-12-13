@@ -1,6 +1,4 @@
 import React from "react";
-
-import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import ChapstickOne from '../../assets/images/ChapstickImages/Chapstick1.jpg'
 import ChapstickTwo from '../../assets/images/ChapstickImages/Chapstick2.jpg'
@@ -18,7 +16,7 @@ function Chapstick() {
     return (
       <div className="chapstickSection">
         
-        <Card className="honeyTextCard" sx={{ maxWidth: 700 }}>
+        <Card className="chapstickTextCard" sx={{ maxWidth: 700 }}>
         <CardContent>
           <Typography gutterBottom  component="div" color="#e2ad22">
             <h2 className="chapstickH2">Chapstick</h2>

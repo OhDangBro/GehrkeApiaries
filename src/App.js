@@ -1,11 +1,9 @@
 import './App.css';
 import Hero from './Components/Hero';
-
-
 import Honey from './Components/Honey';
 import Chapstick from './Components/Chapstick';
-
-import Welcome from './Components/Welcome';
+import Navi from './Components/Navi';
+// import Welcome from './Components/Welcome';
 
 
 function App() {
@@ -13,9 +11,10 @@ function App() {
     <>
     <div>
     <Hero></Hero>
-    {/* <Welcome/> */}
+    <div className="bodyDesktop">
     <Honey/>
     <Chapstick/>
+    </div>
     </div>
     </>
   );
