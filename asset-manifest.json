@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/GehrkeApiaries/static/css/main.57e83a7d.css",
+    "main.js": "/GehrkeApiaries/static/js/main.33c491b0.js",
+    "static/js/787.63889f70.chunk.js": "/GehrkeApiaries/static/js/787.63889f70.chunk.js",
+    "static/media/Chapstick3.jpg": "/GehrkeApiaries/static/media/Chapstick3.3a9d8b8bfc239dcbb5f7.jpg",
+    "static/media/HoneyFiltering.jpg": "/GehrkeApiaries/static/media/HoneyFiltering.e1cefae2956367924a80.jpg",
+    "static/media/4ozHoney.jpeg": "/GehrkeApiaries/static/media/4ozHoney.0420c36982fb9208f5b3.jpeg",
+    "static/media/oneOzHoney.jpg": "/GehrkeApiaries/static/media/oneOzHoney.b14843502351688a1ede.jpg",
+    "static/media/Chapstick1.jpg": "/GehrkeApiaries/static/media/Chapstick1.aab786caa41a29945705.jpg",
+    "static/media/HeroImage.svg": "/GehrkeApiaries/static/media/HeroImage.8c1dd3faba42d9226c9a.svg",
+    "static/media/BeeHead.svg": "/GehrkeApiaries/static/media/BeeHead.9bff98bf4c92223d1d91.svg",
+    "static/media/Chapstick2.jpg": "/GehrkeApiaries/static/media/Chapstick2.6f504dede6d74826e6eb.jpg",
+    "static/media/Bees Burts.ttf": "/GehrkeApiaries/static/media/Bees Burts.badb784bc0b088d8103b.ttf",
+    "index.html": "/GehrkeApiaries/index.html",
+    "main.57e83a7d.css.map": "/GehrkeApiaries/static/css/main.57e83a7d.css.map",
+    "main.33c491b0.js.map": "/GehrkeApiaries/static/js/main.33c491b0.js.map",
+    "787.63889f70.chunk.js.map": "/GehrkeApiaries/static/js/787.63889f70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57e83a7d.css",
+    "static/js/main.33c491b0.js"
+  ]
+}
