@@ -29,6 +29,7 @@
 
 
 
+
 /* /// FONT //// */
 
 @font-face {
@@ -39,6 +40,20 @@
 h2 {
   font-family: beesFont;
   color: rgb(226 173 34);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 40px;
+}
+
+.beeHead {
+  height: 220px;
+  width: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 
@@ -56,7 +71,7 @@ h2 {
   background-image:  url("../src/assets/images/HeroImage.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vh;
+
 }
 
 .Hero {
@@ -66,6 +81,7 @@ h2 {
   position: absolute;
   font-family: gellatio, sans-serif;
   text-align: center;
+  
 }
 
 .heroText {
@@ -88,7 +104,7 @@ h2 {
 /* ---------------------  WELCOME START ----------------------------- */
 .welcomeSection {
   background: rgb(130, 129, 129);
-  min-height: 100vh;
+
 }
 /* ----------------------  WELCOME END -------------------------------- */
 
@@ -100,7 +116,7 @@ h2 {
 /* ---------------------  BEES  START ----------------------------- */
 .beesSection {
   background-color: rgb(130, 129, 129);
-  min-height: 100vh;
+  
 }
 
 .beeFlowerLeft {
@@ -128,26 +144,17 @@ h2 {
 
 .honeySection {
   background: rgb(130, 129, 129);
-  min-height: 80vh;
 }
 
-.fourOzHoneyImage {
+
+
+
+
+
+img {
   height: 600px;
-  width: 500px;
+  width: 600px;
 }
-
-
-.smallFlowerLeft {
-  height: 40px;
-}
-
-.smallFlowerRight {
-  height: 70px;
-}
-
-
-
-
 
 
 .yellowCombOne {
@@ -159,7 +166,7 @@ h2 {
   .fourOzHoneyImage {
     position: relative;
     left: 728px;
-    top: 300px;
+    top: 307px;
 }
 
 .yellowCombTwo {
@@ -187,6 +194,11 @@ h2 {
   top: -1176px;
 }
 
+.beeWithHoneyJar{
+  position: relative;
+  left: 409px;
+  top: -1176px;
+}
 
 /* ----------------------  HONEY END -------------------------------- */
 
@@ -232,4 +244,105 @@ h2 {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 480px) {
+  
+/* -------- Hero Section Start ---------- */
+  .heroText {
+    font-family: beesFont;
+    color: rgb(226 173 34);
+    font-size: 32px;
+    height: 2px;
+}
+
+/* -------- Hero Section End ---------- */
+
+
+
+
+
+
+/* -------- Honey Section Start ---------- */
+
+  .honeySection{
+    background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/Flower.svg")
+    
+    
+  }
+
+  .hexagon{
+    height: 120px;
+    width: 120px;
+    -webkit-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+    clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+    background-image: cover;
+  }
+
+
+
+  .beeHead {
+    height: 100px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h2 {
+  font-family: beesFont;
+  color: rgb(226 173 34);
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  font-size: 26px;
+  top: 20px !important;
+}
+
+
+
+  img{
+    height: 120px;
+    width: 120px;
+  }
+
+  .fourOzHoneyImage {
+    position: relative;
+    left: 205px;
+    top: 16px;
+}
+
+.yellowCombOne {
+  position: relative;
+  left: 77px;
+  top: -103px;
+}
+
+.yellowCombTwo {
+  position: relative;
+  left: 142px;
+  top: -245px;
+}
+
+.honeyFilterDiv {
+  position: relative;
+  left: 15px;
+  top: -122px;
+}
+
+.hexagonOneOzHoney {
+  position: relative;
+  left: 204px;
+  top: -387px;
+}
+
+.yellowCombThree {
+  position: relative;
+  left: 79px;
+  top: -266px;
+}
+/* -------- Honey Section End ---------- */
+
 }
