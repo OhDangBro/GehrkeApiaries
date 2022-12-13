@@ -13,7 +13,7 @@ function App() {
     <>
     <Hero></Hero>
     <body>
-    <Welcome/>
+    {/* <Welcome/> */}
     <Honey/>
     <Chapstick/>
     </body>

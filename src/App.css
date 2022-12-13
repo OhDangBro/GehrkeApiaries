@@ -1,12 +1,11 @@
 * {
  
-  margin: 0;
-  box-sizing: border-box
+  background-attachment: fixed;
+  background-position: center;
+  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
+ 
 }
 
-body {
-  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
-}
 
 .App {
   text-align: center;
@@ -27,7 +26,7 @@ body {
   width: 500px;
   -webkit-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
   clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
-  background-image: cover;
+
 }
 
 
@@ -48,15 +47,11 @@ body {
 }
 
 h2 {
+  color: #e2ad22;
   font-family: beesFont;
-  color: rgb(226 173 34);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  font-size: 40px;
-  padding-bottom: 30px;
-
+  font-size: 69px;
+  padding-bottom: -100px;
+  width: 7%;
 }
 
 .beeHead {
@@ -125,40 +120,14 @@ h2 {
 
 
 
-/* ---------------------  BEES  START ----------------------------- */
-.beesSection {
-  background-color: rgb(130, 129, 129);
-  
-}
-
-.beeFlowerLeft {
-  background-color: rgb(130, 129, 129) !important;
-  width: 20%;
-  height: 100px;
-  border-style: none !important;
-}
-
-.beeGrid {
-  background-color: rgb(130, 129, 129);
-}
-
-.rotateimg180 {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-/* ----------------------  BEES END -------------------------------- */
-
-
-
-
-
 /* ---------------------   HONEY START ----------------------------- */
 
 
-
-
-
-
+.honeySection {
+  
+ 
+  
+}
 
 
 img {
@@ -210,14 +179,54 @@ img {
   top: -1176px;
 }
 
+
+
 /* ----------------------  HONEY END -------------------------------- */
 
 
 
 
 
-/* ---------------------    START ----------------------------- */
-/* ----------------------   END -------------------------------- */
+/* ---------------------   CHAPSTICK SECTION START ----------------------------- */
+
+.chapstickImageOne {
+    position: relative;
+    left: -31px;
+    top: -637px;
+}
+
+.chapstickCombOne {
+  left: 534px;
+  position: relative;
+  top: 4px;
+}
+
+.chapstickImageTwo {
+  left: 781px;
+  position: relative;
+  top: -732px;
+}
+
+.chapstickCombTwo {
+  left: 264px;
+  position: relative;
+  top: -1335px;
+}
+
+.chapstickImageThree {
+  left: 6px;
+  position: relative;
+  top: -1465px;
+}
+
+.chapstickCombThree {
+  left: 526px;
+  position: relative;
+  top: -2073px;
+}
+
+
+/* ----------------------   CHAPSTICK END -------------------------------- */
 
 
 
@@ -279,6 +288,8 @@ img {
     background-size: 100%;
     background-position: 20%;
     height: 370px;
+    background-repeat: no-repeat;
+  background-image:linear-gradient(90deg, rgba(130, 129, 129, 0.9) 0%, rgba(130, 129, 129, 0.7) 100%),  url("../src/assets/images/BeeHead.svg")
    
     
     
@@ -290,7 +301,7 @@ img {
     width: 120px;
     -webkit-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
     clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
-    background-image: cover;
+   
   }
 
 
