@@ -11,12 +11,12 @@ import Welcome from './Components/Welcome';
 function App() {
   return (
     <>
+    <div>
     <Hero></Hero>
-    <body>
     {/* <Welcome/> */}
     <Honey/>
     <Chapstick/>
-    </body>
+    </div>
     </>
   );
 }
