@@ -167,38 +167,40 @@ img {
 
 .yellowCombOne {
   position: relative;
-    left: 203px;
-    top: -300px;
+  left: 307px;
+  top: -300px;
 }
 
-  .fourOzHoneyImage {
-    position: relative;
-    left: 728px;
-    top: 307px;
+.fourOzHoneyImage {
+  position: relative;
+  left: 826px;
+  top: 307px;
 }
 
 .yellowCombTwo {
   position: relative;
-  left: 472px;
-  top: -1046px;
-}
-
-  .honeyFilterDiv {
-    position: relative;
-    left: -50px;
-    top: -436px;
+  left: 569px;
+  top: -1043px;
 }
 
 
-.hexagonOneOzHoney{
+
+.honeyFilterDiv {
   position: relative;
-    left: 725px;
-    top: -1783px
+  left: 46px;
+  top: -436px;
+}
+
+
+.hexagonOneOzHoney {
+  position: relative;
+  left: 828px;
+  top: -1783px;
 }
 
 .yellowCombThree {
   position: relative;
-  left: 209px;
+  left: 308px;
   top: -1176px;
 }
 
@@ -206,25 +208,25 @@ img {
 
 .twoBigOneSmall {
   position: relative;
-  left: -309px;
+  left: -217px;
   top: -2380px;
 }
 
 .twoSmallOneBig {
   position: relative;
-  left: 984px;
+  left: 1089px;
   top: -3457px;
 }
 
 .yellowCombFour {
   position: relative;
-  left: -562px;
+  left: -477px;
   top: -4061px;
 }
 
 .openHoney {
   position: relative;
-  left: -307px;
+  left: -215px;
   top: -5128px;
 }
 
@@ -252,38 +254,50 @@ img {
 
 .chapstickImageOne {
   position: relative;
-  left: 0px;
+  left: -262px;
   top: -599px;
 }
 
 .chapstickCombOne {
-  left: 534px;
+  left: 290px;
   position: relative;
   top: 4px;
 }
 
 .chapstickImageTwo {
-  left: 781px;
+  left: 20px;
   position: relative;
   top: -732px;
 }
 
 .chapstickCombTwo {
-  left: 264px;
+  left: 570px;
   position: relative;
   top: -1335px;
 }
 
 .chapstickImageThree {
-  left: 6px;
+  left: -233px;
   position: relative;
   top: -1465px;
 }
 
 .chapstickCombThree {
-  left: 526px;
+  left: 296px;
   position: relative;
-  top: -2073px;
+  top: -2067px;
+}
+
+.chapstickImageFour {
+  left: 848px;
+  position: relative;
+  top: -3613px;
+}
+
+.chapstickImageFive {
+  left: 829px;
+  position: relative;
+  top: -3273px;
 }
 
 
