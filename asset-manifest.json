@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c463ae1.css",
-    "main.js": "/static/js/main.2dcfb13c.js",
+    "main.css": "/static/css/main.cc30b158.css",
+    "main.js": "/static/js/main.8f620f12.js",
     "static/js/787.63889f70.chunk.js": "/static/js/787.63889f70.chunk.js",
+    "static/media/Chapstick4.jpg": "/static/media/Chapstick4.c83badfa57bd218c3d42.jpg",
     "static/media/OpenHoney.jpg": "/static/media/OpenHoney.9ce0824d36d2c63a4df9.jpg",
     "static/media/Chapstick3.jpg": "/static/media/Chapstick3.3a9d8b8bfc239dcbb5f7.jpg",
+    "static/media/Chapstick5.jpg": "/static/media/Chapstick5.da83252963e7353a0916.jpg",
     "static/media/HoneyFiltering.jpg": "/static/media/HoneyFiltering.e1cefae2956367924a80.jpg",
     "static/media/TwoBigOneSmall.jpg": "/static/media/TwoBigOneSmall.dbc538a3f5b94bd09e4e.jpg",
     "static/media/TwoSmallOneBig.jpg": "/static/media/TwoSmallOneBig.f90a702f34f1b528b464.jpg",
@@ -16,12 +18,12 @@
     "static/media/Chapstick2.jpg": "/static/media/Chapstick2.6f504dede6d74826e6eb.jpg",
     "static/media/Bees Burts.ttf": "/static/media/Bees Burts.badb784bc0b088d8103b.ttf",
     "index.html": "/index.html",
-    "main.1c463ae1.css.map": "/static/css/main.1c463ae1.css.map",
-    "main.2dcfb13c.js.map": "/static/js/main.2dcfb13c.js.map",
+    "main.cc30b158.css.map": "/static/css/main.cc30b158.css.map",
+    "main.8f620f12.js.map": "/static/js/main.8f620f12.js.map",
     "787.63889f70.chunk.js.map": "/static/js/787.63889f70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c463ae1.css",
-    "static/js/main.2dcfb13c.js"
+    "static/css/main.cc30b158.css",
+    "static/js/main.8f620f12.js"
   ]
 }
