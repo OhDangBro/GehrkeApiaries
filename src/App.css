@@ -1,7 +1,8 @@
 * {
-margin: 0%  
- 
+margin: 0% ;
+
 }
+
 
 
 .App {
@@ -139,6 +140,7 @@ h2 {
 
 .honeySection {
   background-image: none;
+  overflow-x: hidden;
  
   
 }
@@ -477,7 +479,7 @@ h2 {
   position: relative;
   left: 312px;
   top: -776px;
-  overflow: hidden;
+  overflow-x: hidden !important;
 }
 
 
