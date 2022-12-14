@@ -565,39 +565,54 @@ h2 {
 
 .chapstickCombOne {
   position: relative;
-  left: 163px;
-  top: 69px
+  left: 119px;
+  top: 69px;
 }
+
+
 
 .chapstickImageOne {
   position: relative;
-  left: 34px;
+  left: -10px;
   top: -51px;
 }
 
 .chapstickCombTwo {
   position: relative;
-  left: 101px;
-  top: -192px;
+  left: 122px;
+  top: -99px;
 }
 
 .chapstickImageTwo {
   position: relative;
-  left: 230px;
-  top: -72px;
+  left: 248px;
+  top: 18px;
 }
 
 
 .chapstickImageThree {
   position: relative;
-  left: 35px;
-  top: -215px;
+  left: -5px;
+  top: -220px;
 }
 
 .chapstickCombThree {
   position: relative;
-  left: 166px;
-  top: -332px;
+  left: 184px;
+  top: -437px;
+}
+
+.chapstickImageFour {
+  position: relative;
+  left: 248px;
+  top: -652px;
+}
+
+
+.chapstickImageFive {
+  position: relative;
+  left: 54px;
+  top: -677px;
 }
 /* //chapstick text// */
 .css-u30lmt {

@@ -3,6 +3,8 @@ import Container from '@mui/material/Container';
 import ChapstickOne from '../../assets/images/ChapstickImages/Chapstick1.jpg'
 import ChapstickTwo from '../../assets/images/ChapstickImages/Chapstick2.jpg'
 import ChapstickThree from '../../assets/images/ChapstickImages/Chapstick3.jpg'
+import ChapstickFour from '../../assets/images/ChapstickImages/Chapstick4.jpg'
+import ChapstickFive from '../../assets/images/ChapstickImages/Chapstick5.jpg'
 import YellowComb from "../../assets/images/HoneyImages/YellowComb.png"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -35,6 +37,8 @@ function Chapstick() {
       <div class="hexagon chapstickCombTwo"><img src={YellowComb}  alt="yellow comb 2" /></div>
       <div class="hexagon chapstickImageThree"><img src={ChapstickThree}  alt="yellow comb 3" /></div>
       <div class="hexagon chapstickCombThree "><img src={YellowComb}  alt="little honey bottle" /></div>
+      <div class="hexagon chapstickImageFour"><img src={ChapstickFour}  alt="yellow comb 3" /></div>
+      <div class="hexagon chapstickImageFive"><img src={ChapstickFive}  alt="yellow comb 3" /></div>
       {/* <div class="hexagon yellowCombFour"><img src={BeeHive}  alt="yellow comb 4" /></div> */}
       </Container>
       
