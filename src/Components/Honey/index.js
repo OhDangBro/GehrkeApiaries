@@ -30,7 +30,7 @@ function Honey() {
         <div class="hexagon twoSmallOneBig "><img src={TwoSmallOneBig}  alt="little honey bottle" /></div>
         <div class="hexagon yellowCombFour"><img src={YellowComb}  alt="yellow comb 4" /></div>
         <div class="hexagon openHoney"><img src={OpenHoney}  alt="yellow comb 4" /></div>
-        <div class="hexagon yellowCombFive"><img src={YellowComb}  alt="yellow comb 4" /></div>
+        {/* <div class="hexagon yellowCombFive"><img src={YellowComb}  alt="yellow comb 4" /></div> */}
       </div>
       </Container>
       <Card className="honeyTextCard" sx={{ maxWidth: 700 }}>

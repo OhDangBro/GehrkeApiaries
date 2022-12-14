@@ -450,37 +450,41 @@ h2 {
 
 .hexagonOneOzHoney {
   position: relative;
-  left: 121px;
+  left: 244px;
   top: -437px;
 }
 
 .yellowCombThree {
   position: relative;
-  left: 307px;
+  left: 184px;
   top: -416px;
 }
 
 .twoBigOneSmall {
   position: relative;
   left: -10px;
-  top: -750px;
+  top: -558px;
 }
 
-/* .twoSmallOneBig {
+.openHoney {
   position: relative;
-  left: -84px;
-  top: -857px;
-} */
+  left: -7px;
+  top: -1109px;
+}
+
 
 .twoSmallOneBig {
   position: relative;
-  left: 182px;
+  left: 312px;
   top: -776px;
+  overflow: hidden;
 }
+
+
 
 .yellowCombFour {
   position: relative;
-  left: -7px;
+  left: 118px;
   top: -799px;
 }
 .yellowCombFive {
