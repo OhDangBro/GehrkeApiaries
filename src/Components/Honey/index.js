@@ -3,6 +3,9 @@ import fourOzHoney from "../../assets/images/HoneyImages/4ozHoney.jpeg"
 import Container from '@mui/material/Container';
 import HoneyFiltering from '../../assets/images/HoneyImages/HoneyFiltering.jpg'
 import oneOzHoney from '../../assets/images/HoneyImages/oneOzHoney.jpg'
+import TwoBigOneSmall from '../../assets/images/HoneyImages/TwoBigOneSmall.jpg'
+import TwoSmallOneBig from '../../assets/images/HoneyImages/TwoSmallOneBig.jpg'
+import OpenHoney from '../../assets/images/HoneyImages/OpenHoney.jpg'
 import YellowComb from "../../assets/images/HoneyImages/YellowComb.png"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -23,6 +26,11 @@ function Honey() {
         <div class="hexagon yellowCombTwo"><img src={YellowComb}  alt="yellow comb 2" /></div>
         <div class="hexagon yellowCombThree"><img src={YellowComb}  alt="yellow comb 3" /></div>
         <div class="hexagon hexagonOneOzHoney "><img src={oneOzHoney}  alt="little honey bottle" /></div>
+        <div class="hexagon twoBigOneSmall "><img src={TwoBigOneSmall}  alt="little honey bottle" /></div>
+        <div class="hexagon twoSmallOneBig "><img src={TwoSmallOneBig}  alt="little honey bottle" /></div>
+        <div class="hexagon yellowCombFour"><img src={YellowComb}  alt="yellow comb 4" /></div>
+        <div class="hexagon openHoney"><img src={OpenHoney}  alt="yellow comb 4" /></div>
+        <div class="hexagon yellowCombFive"><img src={YellowComb}  alt="yellow comb 4" /></div>
       </div>
       </Container>
       <Card className="honeyTextCard" sx={{ maxWidth: 700 }}>

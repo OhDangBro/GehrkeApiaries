@@ -200,10 +200,30 @@ img {
   top: -1176px;
 }
 
-.beeWithHoneyJar{
+
+
+.twoBigOneSmall {
   position: relative;
-  left: 409px;
-  top: -1176px;
+  left: -309px;
+  top: -2380px;
+}
+
+.twoSmallOneBig {
+  position: relative;
+  left: 984px;
+  top: -3457px;
+}
+
+.yellowCombFour {
+  position: relative;
+  left: -562px;
+  top: -4061px;
+}
+
+.openHoney {
+  position: relative;
+  left: -307px;
+  top: -5128px;
 }
 
 
@@ -406,38 +426,67 @@ h2 {
 
   .fourOzHoneyImage {
     position: relative;
-    left: 189px;
+    left: 244px;
     top: -32px;
 }
 
 .yellowCombOne {
   position: relative;
-  left: 56px;
+  left: 118px;
   top: -151px;
 }
 
 .yellowCombTwo {
   position: relative;
-  left: 123px;
-  top: -292px;
+  left: -69px;
+  top: -294px;
 }
 
 .honeyFilterDiv {
   position: relative;
-  left: -10px;
-  top: -171px;
+  left: 55px;
+  top: -176px;
 }
 
 .hexagonOneOzHoney {
   position: relative;
-  left: 189px;
-  top: -430px;
+  left: 121px;
+  top: -437px;
 }
 
 .yellowCombThree {
   position: relative;
-  left: 56px;
-  top: -312px;
+  left: 307px;
+  top: -416px;
+}
+
+.twoBigOneSmall {
+  position: relative;
+  left: -10px;
+  top: -750px;
+}
+
+/* .twoSmallOneBig {
+  position: relative;
+  left: -84px;
+  top: -857px;
+} */
+
+.twoSmallOneBig {
+  position: relative;
+  left: 182px;
+  top: -776px;
+}
+
+.yellowCombFour {
+  position: relative;
+  left: -7px;
+  top: -799px;
+}
+.yellowCombFive {
+  position: relative;
+  left: 247px;
+  top: -1040px;
 }
 
 .hexagonHoneyContainer {
