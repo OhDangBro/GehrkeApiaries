@@ -31,7 +31,6 @@ margin: 0% ;
 }
 
 
-
 .App-link {
   color: #61dafb;
 }
@@ -121,9 +120,7 @@ h2 {
 
 
 /* ------------------ NAV START ------------------------ */
-.wholeNav {
-  overflow: hidden !important;
-}
+
 
 .navBar {
   width: 100% !important;
@@ -434,7 +431,13 @@ img {
 /* -------- Hero PHONE Section End ---------- */
 
 
-
+.css-de1c49 {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 56px;
+  background-color: #e2ad22 !important;
+}
 
 
 
@@ -442,7 +445,7 @@ img {
 
   .honeySection{
     background-size: 100%;
-    background-position: 20%;
+    /* background-position: 20%; */
     height: 100vh;
     
  
@@ -752,6 +755,16 @@ h2 {
 
 
 /* -------- Bees Phone Section START ---------- */
+.beeSection {
+  height: 100vh;
+  position: relative;
+  top: 100px;
+  left: 0px;
+  height: 100vh;
+  bottom: -300px !important;
+  position: relative;
+}
+
 
 .swarmOfBees {
   position: relative;

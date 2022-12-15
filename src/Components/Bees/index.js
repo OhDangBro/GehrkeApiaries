@@ -13,19 +13,19 @@ import { Container } from "react-bootstrap";
 function Bees() {
     return (
         
-<div id="Bees" className="beeSection">
-<Card className="beeTextCard" sx={{ maxWidth: 700 }}>
+<div  className="beeSection">
+<Card id="Bees" className="beeTextCard" sx={{ maxWidth: 700 }}>
         <CardContent>
-          <Typography gutterBottom  component="div" color="#e2ad22">
-            <h2 className="chapstickH2">The Bee's</h2>
+          <Typography  gutterBottom  component="div" color="#e2ad22">
+            <h2  className="chapstickH2">The Bee's</h2>
           </Typography>
-          <Typography className="chapstickText" variant="body2" color="text.secondary">
+          <Typography   className="chapstickText" variant="body2" color="text.secondary">
           American beekeepers have been using Italian honey bees (Apis mellifera ligustica) since they were first imported to the New World in 1859. The Italian bees were and are excellent honey producers, show a gentle temperament that makes them the most popular race of honey bee in North America, have a moderately low tendency to swarm, and have a bright yellow color that makes queens easy to find. </Typography>
-        </CardContent>
+        </CardContent >
      
     </Card>
         <Container>
-        <div class="hexagon beeCombOne"><img src={YellowComb}  alt="big honey bottle"></img></div>
+        <div  class="hexagon beeCombOne"><img src={YellowComb}   alt="big honey bottle"></img></div>
          <div class="hexagon beesOnHive"><img src={BeesOnHive}  alt="yellow comb 1" /></div>
          <div class="hexagon beesOnFrame"><img src={BeesOnFrame}  alt="honey filter" /></div>
         <div class="hexagon beeCombTwo"><img src={YellowComb}  alt="yellow comb 2" /></div>

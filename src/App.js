@@ -12,15 +12,15 @@ function App() {
   return (
     <>
     <div>
-     
     <Hero></Hero>
     <div className="bodyDesktop">
     <Honey/>
     <Chapstick/>
     <Bees/>
-    </div>
-    </div>
     <Footer></Footer>
+    </div>
+    </div>
+
     <Navi className="navBar"/>
     </>
   );
