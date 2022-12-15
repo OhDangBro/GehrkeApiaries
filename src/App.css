@@ -121,14 +121,30 @@ h2 {
 
 
 /* ------------------ NAV START ------------------------ */
-
+.wholeNav {
+  overflow: hidden !important;
+}
 
 .navBar {
   width: 100% !important;
   position: fixed !important;
-  background-color: #e2ad22;
+  background-color: #e2ad22 !important;
+  overflow: hidden;
+  bottom: 0 !important;
 }
-
+.css-16lloyr-MuiBottomNavigation-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 56px;
+  background-color: #e2ad22 !important;
+  width: 100%;
+}
 
 
 /* ------------------ NAV END ------------------------ */
