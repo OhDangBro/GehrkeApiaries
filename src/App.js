@@ -3,6 +3,8 @@ import Hero from './Components/Hero';
 import Honey from './Components/Honey';
 import Chapstick from './Components/Chapstick';
 import Navi from './Components/Navi';
+import Footer from './Components/Footer';
+import Bees from './Components/Bees';
 // import Welcome from './Components/Welcome';
 
 
@@ -14,8 +16,10 @@ function App() {
     <div className="bodyDesktop">
     <Honey/>
     <Chapstick/>
+    <Bees/>
     </div>
     </div>
+    <Footer></Footer>
     </>
   );
 }

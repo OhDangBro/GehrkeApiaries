@@ -1,6 +1,7 @@
 * {
 margin: 0% ;
 
+
 }
 
 
@@ -24,8 +25,10 @@ margin: 0% ;
   width: 500px;
   -webkit-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
   clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+  
 
 }
+
 
 
 .App-link {
@@ -79,9 +82,11 @@ h2 {
   font-size: calc(10px + 2vmin);
   color: white;
   background: rgb(130, 129, 129);
-  background-image:  url("../src/assets/images/HeroImage.svg");
+  background-image:  linear-gradient(90deg, rgba(130, 129, 129, 0.7) 0%, rgba(130, 129, 129, 0.7) 100%), url("../src/assets/images/HeroImage.svg");
   background-position: center;
   background-repeat: no-repeat;
+
+
 
 }
 
@@ -207,9 +212,9 @@ img {
 
 
 .twoBigOneSmall {
-  position: relative;
-  left: -217px;
-  top: -2380px;
+    position: relative;
+    left: -217px;
+    top: -2380px;
 }
 
 .twoSmallOneBig {
@@ -306,8 +311,58 @@ img {
 
 
 
-/* ---------------------    START ----------------------------- */
-/* ----------------------   END -------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ---------------------    BEE SECTION START ----------------------------- */
+.beeCombOne {
+  position: relative;
+  left: 950px;
+}
+
+.beesOnHive {
+  position: relative;
+  top: -602px;
+  left: 400px;
+}
+
+.beesOnFrame {
+  position: relative;
+  top: -702px;
+  left: 1246px;
+}
+
+.beeCombTwo {
+  position: relative;
+  top: -1306px;
+  left: 671px;
+}
+
+.openHive {
+  position: relative;
+  top: -1905px;
+  left: 126px;
+}
+
+.beeCombThree {
+  position: relative;
+  top: -2016px;
+  left: 938px;
+}
+
+.swarmOfBees {
+  position: relative;
+  top: -2618px;
+  left: 405px;
+}
+
+/* ----------------------   BEE SECTION END -------------------------------- */
 
 
 
@@ -342,7 +397,7 @@ img {
 
 @media screen and (max-width: 480px) {
   
-/* -------- Hero Section Start ---------- */
+/* -------- Hero PHONE Section Start ---------- */
   .heroText {
     font-family: beesFont;
     color: rgb(226 173 34);
@@ -350,14 +405,16 @@ img {
     height: 2px;
 }
 
-/* -------- Hero Section End ---------- */
+
+
+/* -------- Hero PHONE Section End ---------- */
 
 
 
 
 
 
-/* -------- Honey Section Start ---------- */
+/* -------- Honey PHONE Section Start ---------- */
 
   .honeySection{
     background-size: 100%;
@@ -539,14 +596,14 @@ h2 {
 
 
 
-/* -------- Honey Section End ---------- */
+/* -------- Honey PHONE Section End ---------- */
 
 
 
 
 
 
-/* -------- Chapstick Section Start ---------- */
+/* -------- Chapstick PHONE  Section Start ---------- */
 .chapstickH2{
   font-family: beesFont;
   color: #e2ad22;
@@ -557,6 +614,12 @@ h2 {
   font-size: 26px;
   top: 20px !important;
 }
+
+.css-1ss2ei0-MuiContainer-root {
+
+  overflow-x: hidden !important;
+}
+
 
 .chapstickTextCard {
   background-color: transparent !important;
@@ -595,12 +658,14 @@ h2 {
   position: relative;
   left: 122px;
   top: -99px;
+  overflow-x: hidden !important;
 }
 
 .chapstickImageTwo {
   position: relative;
   left: 248px;
   top: 18px;
+  overflow-y: hidden !important;
 }
 
 
@@ -608,6 +673,7 @@ h2 {
   position: relative;
   left: -5px;
   top: -220px;
+  overflow-y: hidden !important;
 }
 
 .chapstickCombThree {
@@ -620,6 +686,7 @@ h2 {
   position: relative;
   left: 248px;
   top: -652px;
+  overflow-x: hidden;
 }
 
 
@@ -649,5 +716,398 @@ h2 {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* -------- Chapstick Section Start ---------- */
+/* -------- Chapstick PHONE Section END ---------- */
+
+
+
+
+
+
+
+
+
+
+/* -------- Bees Phone Section START ---------- */
+
+.swarmOfBees {
+  position: relative;
+  top: -618px;
+  left: 05px;
+}
+
+.beesOnHive {
+  position: relative;
+  top: -202px;
+  left: 0px;
+}
+
+.beesOnFrame {
+  position: relative;
+  top: -463px;
+  left: 254px !important;
+}
+
+.beeCombOne {
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+.beeCombTwo {
+  position: relative;
+  top: -584px;
+  left: 128px !important;
+}
+
+.beeCombThree {
+  position: relative;
+  top: -316px;
+  left: 38px;
+}
+
+
+/* //BEE PHONE SECTION START// */
+
+.beeTextCard {
+
+color: rgba(0, 0, 0, 0.87);
+-webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+border-radius: 4px;
+box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+overflow: hidden;
+max-width: 700px;
+position: relative;
+top: -345px;
+}
+
+
+
+.openHive {
+  position: relative;
+  top: -805px;
+  left: 72px;
+}
+
+.beeCombOne {
+  position: relative;
+  left: 202px;
+  top: -325px;
+}
+
+.beesOnFrame {
+  position: relative;
+  top: -463px;
+  left: 263px;
+}
+
+
+.beeCombTwo {
+  position: relative;
+  top: -584px;
+  left: 133px;
+}
+
+.beesOnHive {
+  position: relative;
+  top: -342px;
+  left: 2px;
+}
+
+.beeCombThree {
+  position: relative;
+  top: -721px;
+  left: 197px;
+}
+
+.swarmOfBees {
+  position: relative;
+  top: -839px;
+  left: 69px;
+}
+
+
+
+
+/* -------- Bees Phone Section End END ---------- */
+
+}
+/* --------------------- PHONE SECTION END ------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------IPAD/NOTEBOOK SECTION START------------------------ */
+
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    
+
+    .hexagon {
+      width: 200px;
+      clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* text container for chapstick */
+.css-vwn4t2-MuiPaper-root-MuiCard-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  overflow: hidden;
+  max-width: 200px;
+}
+
+
+
+
+
+
+
+
+/* chapstick section ---- */
+/* //chapstick container for text// */
+.css-vwn4t2-MuiPaper-root-MuiCard-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  overflow: hidden;
+  position: relative;
+  /* max-width: 200px; */
+  top: -900px;
+  left: 400px;
+}
+
+h2 {
+  color: #e2ad22;
+  font-family: beesFont;
+  font-size: 48px;
+  padding-bottom: -100px;
+  width: 7%;
+}
+
+.css-1ss2ei0-MuiContainer-root {
+  max-width: 900px;
+  height: 100vh;
+}
+
+
+
+/* ///honey section ipad//// */
+
+.honeySection{
+  position: relative;
+  top: 100px;
+  height: 100vh !important;
+}
+.fourOzHoneyImage {
+  position: relative;
+  left: 617px;
+  top: 224px;
+}
+
+.yellowCombOne {
+  position: relative;
+  left: 390px;
+  top: 18px;
+}
+
+.yellowCombTwo {
+  position: relative;
+  left: 50px;
+  top: -209px;
+}
+
+.honeyFilterDiv {
+  position: relative;
+  left: 273px;
+  top: -2px;
+}
+
+.hexagonOneOzHoney {
+  position: relative;
+  left: 166px;
+  top: -437px;
+}
+
+.yellowCombThree {
+  position: relative;
+  left: 506px;
+  top: -410px;
+}
+
+.twoBigOneSmall {
+  position: relative;
+  left: 620px;
+  top: -638px;
+}
+
+.openHoney {
+  position: relative;
+  left: 161px;
+  top: -1609px;
+}
+
+
+.twoSmallOneBig {
+  position: relative;
+  left: 729px;
+  top: -1019px;
+  overflow-x: hidden !important;
+}
+
+.yellowCombFour {
+  position: relative;
+  left: 391px;
+  top: -1047px;
+}
+
+.yellowCombFive {
+position: relative;
+left: 247px;
+top: -1040px;
+}
+
+.hexagonHoneyContainer {
+height: 10px;
+}
+
+.honeyTextCard {
+  background-color: transparent !important;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  overflow: hidden;
+  max-width: 700px;
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  top: -5px;
+  left: 114px;
+  height: 200px;
+}
+
+/* ///chapstick and honey textcard font size // */
+.css-r40f8v-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 0.775rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.css-vwn4t2-MuiPaper-root-MuiCard-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  overflow: hidden;
+  max-width: 700px;
+  position: relative;
+  top: 0px;
+}
+
+
+
+/* ///////chapstick ipad////////// */
+.chapstickSection{
+  position: relative;
+  top: 0px;
+  height: 200vh !important;
+
+}
+
+
+/* //chapstick container with text position// */
+.chapstickTextCard {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  overflow: hidden;
+  max-width: 700px;
+  position: relative;
+  left: 147px;
+  height: 200px;
+}
+
+.chapstickImageOne {
+  position: relative;
+  left: 218px;
+  top: 12px;
+}
+
+
+.chapstickImageTwo {
+  left: 540px;
+  position: relative;
+  top: -351px;
+}
+
+.chapstickCombOne {
+  left: 427px;
+  position: relative;
+  top: 214px;
+}
+
+
+.chapstickCombTwo {
+  left: 321px;
+  position: relative;
+  top: -229px;
+}
+
+.chapstickImageThree {
+  left: 107px;
+  position: relative;
+  top: -433px;
+}
+
+.chapstickCombThree {
+  left: 329px;
+  position: relative;
+  top: -970px;
+}
+
+.chapstickImageFour {
+  left: 118px;
+  position: relative;
+  top: -1174px;
+}
+
+.chapstickImageFive {
+  left: 540px;
+  position: relative;
+  top: -1043px;
+}
+
 }

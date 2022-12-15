@@ -29,7 +29,7 @@ function Chapstick() {
      
     </Card>
       
-      <Container fixed>
+      <Container className="chapContainer" fixed>
       
       <div class="hexagon chapstickCombOne"><img src={YellowComb}  alt="big honey bottle"></img></div>
       <div class="hexagon chapstickImageOne"><img src={ChapstickOne}  alt="yellow comb 1" /></div>
@@ -39,7 +39,7 @@ function Chapstick() {
       <div class="hexagon chapstickCombThree "><img src={YellowComb}  alt="little honey bottle" /></div>
       <div class="hexagon chapstickImageFour"><img src={ChapstickFour}  alt="yellow comb 3" /></div>
       <div class="hexagon chapstickImageFive"><img src={ChapstickFive}  alt="yellow comb 3" /></div>
-      {/* <div class="hexagon yellowCombFour"><img src={BeeHive}  alt="yellow comb 4" /></div> */}
+    
       </Container>
       
    
