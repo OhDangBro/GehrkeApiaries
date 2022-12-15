@@ -13,7 +13,7 @@ import { Container } from "react-bootstrap";
 function Bees() {
     return (
         
-<div className="beeSection">
+<div id="Bees" className="beeSection">
 <Card className="beeTextCard" sx={{ maxWidth: 700 }}>
         <CardContent>
           <Typography gutterBottom  component="div" color="#e2ad22">

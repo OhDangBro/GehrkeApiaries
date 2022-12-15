@@ -16,7 +16,7 @@ import Typography from '@mui/material/Typography';
 
 function Chapstick() {
     return (
-      <div className="chapstickSection">
+      <div id="Chapstick" className="chapstickSection">
         
         <Card className="chapstickTextCard" sx={{ maxWidth: 700 }}>
         <CardContent>

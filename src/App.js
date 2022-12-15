@@ -12,6 +12,7 @@ function App() {
   return (
     <>
     <div>
+     
     <Hero></Hero>
     <div className="bodyDesktop">
     <Honey/>
@@ -20,6 +21,7 @@ function App() {
     </div>
     </div>
     <Footer></Footer>
+    <Navi className="navBar"/>
     </>
   );
 }

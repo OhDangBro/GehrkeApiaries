@@ -6,6 +6,7 @@ margin: 0% ;
 
 
 
+
 .App {
   text-align: center;
 }
@@ -120,6 +121,13 @@ h2 {
 
 
 /* ------------------ NAV START ------------------------ */
+
+
+.navBar {
+  width: 100% !important;
+  position: fixed !important;
+  background-color: #e2ad22;
+}
 
 
 

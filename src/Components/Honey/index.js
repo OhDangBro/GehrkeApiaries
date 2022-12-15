@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 
 function Honey() {
     return (
-      <div className="honeySection">
+      <div id="Honey" className="honeySection">
       <Container >
       <div className="hexagonHoneyContainer">
         <div class="hexagon fourOzHoneyImage"><img src={fourOzHoney}  alt="big honey bottle"></img></div>
