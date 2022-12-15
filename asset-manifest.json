@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a359a3d.css",
-    "main.js": "/static/js/main.d4b6fc3c.js",
+    "main.css": "/static/css/main.18ade02e.css",
+    "main.js": "/static/js/main.9d71c66e.js",
     "static/js/787.63889f70.chunk.js": "/static/js/787.63889f70.chunk.js",
     "static/media/OpenHive.jpg": "/static/media/OpenHive.4ef6238e0df32ab6018a.jpg",
     "static/media/Chapstick4.jpg": "/static/media/Chapstick4.c83badfa57bd218c3d42.jpg",
@@ -22,12 +22,12 @@
     "static/media/Chapstick2.jpg": "/static/media/Chapstick2.6f504dede6d74826e6eb.jpg",
     "static/media/Bees Burts.ttf": "/static/media/Bees Burts.badb784bc0b088d8103b.ttf",
     "index.html": "/index.html",
-    "main.1a359a3d.css.map": "/static/css/main.1a359a3d.css.map",
-    "main.d4b6fc3c.js.map": "/static/js/main.d4b6fc3c.js.map",
+    "main.18ade02e.css.map": "/static/css/main.18ade02e.css.map",
+    "main.9d71c66e.js.map": "/static/js/main.9d71c66e.js.map",
     "787.63889f70.chunk.js.map": "/static/js/787.63889f70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a359a3d.css",
-    "static/js/main.d4b6fc3c.js"
+    "static/css/main.18ade02e.css",
+    "static/js/main.9d71c66e.js"
   ]
 }
