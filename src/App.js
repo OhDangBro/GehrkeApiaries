@@ -11,17 +11,18 @@ import Bees from './Components/Bees';
 function App() {
   return (
     <>
-    <div>
+    
     <Hero></Hero>
     <div className="bodyDesktop">
     <Honey/>
     <Chapstick/>
     <Bees/>
     <Footer></Footer>
-    </div>
-    </div>
-
     <Navi className="navBar"/>
+    </div>
+   
+
+
     </>
   );
 }

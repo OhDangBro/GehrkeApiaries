@@ -13,7 +13,7 @@ import { Container } from "react-bootstrap";
 function Bees() {
     return (
         
-<div  className="beeSection">
+<>
 <Card id="Bees" className="beeTextCard" sx={{ maxWidth: 700 }}>
         <CardContent>
           <Typography  gutterBottom  component="div" color="#e2ad22">
@@ -33,7 +33,7 @@ function Bees() {
         <div class="hexagon beeCombThree "><img src={YellowComb}  alt="little honey bottle" /></div>
          <div class="hexagon swarmOfBees"><img src={SwarmOfBees}  alt="yellow comb 3" /></div>
          </Container>
-         </div>
+         </>     
     );
   }
   
