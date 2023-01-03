@@ -5,7 +5,7 @@ import Chapstick from './Components/Chapstick';
 import Navi from './Components/Navi';
 import Footer from './Components/Footer';
 import Bees from './Components/Bees';
-// import Welcome from './Components/Welcome';
+import Contact from './Components/Contact';
 
 
 function App() {
@@ -15,8 +15,9 @@ function App() {
     <Hero></Hero>
     <div className="bodyDesktop">
     <Honey/>
-    <Chapstick/>
-    <Bees/>
+    {/* <Chapstick/>
+    <Bees/> */}
+    <Contact/>
     <Footer></Footer>
     <Navi className="navBar"/>
     </div>
